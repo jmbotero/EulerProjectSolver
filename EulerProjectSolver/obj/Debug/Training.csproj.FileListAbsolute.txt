@@ -1,0 +1,29 @@
+\\VBOXSVR\Projects\Other\Visual Studio 2010\Projects\Sandbox\Training\Training\bin\Debug\Training.exe.config
+\\VBOXSVR\Projects\Other\Visual Studio 2010\Projects\Sandbox\Training\Training\bin\Debug\Training.exe
+\\VBOXSVR\Projects\Other\Visual Studio 2010\Projects\Sandbox\Training\Training\bin\Debug\Training.pdb
+\\VBOXSVR\Projects\Other\Visual Studio 2010\Projects\Sandbox\Training\Training\bin\Debug\MySql.Data.dll
+\\VBOXSVR\Projects\Other\Visual Studio 2010\Projects\Sandbox\Training\Training\bin\Debug\Juanmartin.Kernel.pdb
+\\VBOXSVR\Projects\Other\Visual Studio 2010\Projects\Sandbox\Training\Training\obj\Debug\Training.exe
+\\VBOXSVR\Projects\Other\Visual Studio 2010\Projects\Sandbox\Training\Training\obj\Debug\Training.pdb
+\\VBOXSVR\Projects\Other\Visual Studio 2010\Projects\Sandbox\Training\Training\obj\Debug\Training.csprojResolveAssemblyReference.cache
+\\VBOXSVR\Projects\Other\Visual Studio 2010\Projects\Sandbox\Training\Training\bin\Debug\Juanmartin.Kernel.dll
+E:\Other\Visual Studio 2010\Projects\Sandbox\Training\Training\bin\Debug\Training.exe.config
+E:\Other\Visual Studio 2010\Projects\Sandbox\Training\Training\obj\Debug\Training.exe
+E:\Other\Visual Studio 2010\Projects\Sandbox\Training\Training\obj\Debug\Training.pdb
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\bin\Debug\Training.exe.config
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\obj\Debug\Training.exe
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\obj\Debug\Training.pdb
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\bin\Debug\Training.exe
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\bin\Debug\Training.pdb
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\bin\Debug\Juanmartin.Kernel.dll
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\bin\Debug\Newtonsoft.Json.dll
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\bin\Debug\MySql.Data.dll
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\bin\Debug\JuanMartin.Api.Models.pdb
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\bin\Debug\JuanMartin.Api.Models.xml
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\bin\Debug\Juanmartin.Kernel.pdb
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\bin\Debug\Newtonsoft.Json.xml
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\obj\Debug\Training.csprojResolveAssemblyReference.cache
+\\VBOXSVR\Visual_Studio\Sandbox\Training\Training\bin\Debug\JuanMartin.Api.Models.dll
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\Training\Training\bin\Debug\Training.exe.config
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\Training\Training\obj\Debug\Training.exe
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\Training\Training\obj\Debug\Training.pdb

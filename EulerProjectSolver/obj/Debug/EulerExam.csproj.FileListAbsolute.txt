@@ -1,0 +1,16 @@
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\JuanMartin.Api.Models.dll
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\JuanMartin.Kernel.dll
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\MySql.Data.dll
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\JuanMartin.Api.Models.pdb
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\JuanMartin.Api.Models.xml
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\JuanMartin.Kernel.pdb
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\obj\Debug\EulerExam.csprojResolveAssemblyReference.cache
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\EulerProject.pdb
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\JuanMartin.Utilities.dll
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\JuanMartin.Utilities.pdb
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\obj\Debug\EulerProject.pdb
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\EulerProject.exe.config
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\bin\Debug\EulerProject.exe
+C:\Users\JuanMartin\Documents\Visual Studio 2015\Projects\Sandbox\EulerExam\EulerExam\obj\Debug\EulerProject.exe

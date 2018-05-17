@@ -1,5 +1,5 @@
 # EulerProjectSolver
-Console application for the JuanMartin Euler Project Solver: soutions for eulerproject.com problems
+Console application for the JuanMartin Euler Project Solver: soutions for https://projecteuler.net/archives problems
 
 For the solution in this epository to run you must also clone the JuanMartin.Kernel and JuanMartin.Utilties repositories. 
 For it to load out-of-the-box clone the three repositories in the same local folder.

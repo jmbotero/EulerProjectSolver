@@ -35,15 +35,14 @@
     <StartupObject>JuanMartin.EulerProject.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="JuanMartin.Api.Models, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\JuanMartin\Utilities\Utilities\bin\Debug\JuanMartin.Api.Models.dll</HintPath>
+    <Reference Include="JuanMartin.Api.Models">
+      <HintPath>..\..\JuanMartin.Api\Models\artifacts\bin\JuanMartin.Api.Models\Debug\dotnet5.4\JuanMartin.Api.Models.dll</HintPath>
     </Reference>
-    <Reference Include="JuanMartin.Kernel">
-      <HintPath>..\..\..\JuanMartin\Kernel\JuanMartin.Kernel\bin\Debug\JuanMartin.Kernel.dll</HintPath>
+    <Reference Include="Juanmartin.Kernel">
+      <HintPath>..\..\JuanMartin.Kernel\JuanMartin.Kernel\bin\Debug\Juanmartin.Kernel.dll</HintPath>
     </Reference>
     <Reference Include="JuanMartin.Utilities">
-      <HintPath>..\..\..\JuanMartin\Utilities\JuanMartin.Utilities\bin\Debug\JuanMartin.Utilities.dll</HintPath>
+      <HintPath>..\..\JuanMartin.Utilities\JuanMartin.Utilities\bin\Debug\JuanMartin.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>

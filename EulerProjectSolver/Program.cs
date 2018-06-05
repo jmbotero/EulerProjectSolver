@@ -18,7 +18,9 @@ namespace JuanMartin.EulerProject
             {
                 for (int i = 0; i < problems.Length; i++)
                 {
-                 }
+                    var p = UtilityEulerProjectSolver.GetProblemById(i);
+                    UtilityEulerProjectSolver.Launch(p.Script, p);
+                }
             }
             else
             {

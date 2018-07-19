@@ -14,33 +14,43 @@ namespace JuanMartin.EulerProject
             var validateProblems = Convert.ToBoolean(args[0]);
             IEnumerable<int> problemIds = null;
 
-            if (args.Length > 1)
-                problemIds=args[1].Split(',').Select(i=>Convert.ToInt32(i)).ToArray();
-
-            if (validateProblems)
+            try
             {
-                Console.WriteLine("Verifying problem anwers...");
-                UtilityEulerProjectSolver.ValidateProblems(problems);
+                if (args.Length > 1)
+                    problemIds = args[1].Split(',').Select(i => Convert.ToInt32(i)).ToArray();
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+                problemIds = null;
+            }
+            if (problemIds == null)
+            {
+                validateProblems = false;
+
+                for (int i = 0; i < problems.Length; i++)
+                {
+                    var p = UtilityEulerProjectSolver.GetProblemById(i);
+                    UtilityEulerProjectSolver.Launch(p.Script, p);
+                }
             }
             else
             {
+                foreach (int id in problemIds)
+                {
+                    if (id == -1)
+                        break;
+
+                    var p = UtilityEulerProjectSolver.GetProblemById(id);
+                    UtilityEulerProjectSolver.Launch(p.Script, p);
+                }
+            }
+
+            if (validateProblems)
+            {
                 Console.WriteLine("------------------------------------------------------------------------");
-                if (problemIds == null)
-                {
-                    for (int i = 0; i < problems.Length; i++)
-                    {
-                        var p = UtilityEulerProjectSolver.GetProblemById(i);
-                        UtilityEulerProjectSolver.Launch(p.Script, p);
-                    }
-                }
-                else
-                {
-                    foreach (int id in problemIds)
-                    {
-                        var p = UtilityEulerProjectSolver.GetProblemById(id);
-                        UtilityEulerProjectSolver.Launch(p.Script, p);
-                    }
-                }
+                Console.WriteLine("Verifying problem answers...");
+                UtilityEulerProjectSolver.ValidateProblems(problems);
             }
             Console.WriteLine("------------------------------------------------------------------------");
             Console.WriteLine("Complete");

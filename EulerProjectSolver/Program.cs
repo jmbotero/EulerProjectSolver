@@ -1,4 +1,4 @@
-﻿using JuanMartin.Utilities;
+﻿using JuanMartin.Utilities.Euler;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +11,7 @@ namespace JuanMartin.EulerProject
         static void Main(string[] args)
          {
             var problems = UtilityEulerProjectSolver.problems;
+
             var validateProblems = Convert.ToBoolean(args[0]);
             IEnumerable<int> problemIds = null;
 

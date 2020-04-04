@@ -23,8 +23,7 @@ namespace Training
                 object[] attrs = pi.GetCustomAttributes(true);
                 foreach (var attr in attrs)
                 {
-                    var vp = attr as JsonPropertyAttribute;
-                    if (vp != null) name = vp.PropertyName;
+                    if (attr is JsonPropertyAttribute vp) name = vp.PropertyName;
                 }
 
                 result.AppendFormat("\"{0}\" : \"{1}\"", name, value);
@@ -34,8 +33,7 @@ namespace Training
 
         public string SerializeObject(object o)
         {
-            //if
-            return "";
+            return o.ToString();
         }
 
     }

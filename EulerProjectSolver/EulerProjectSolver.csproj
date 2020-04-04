@@ -11,7 +11,7 @@
     <AssemblyName>EulerProject</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-	<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -36,18 +36,13 @@
     <StartupObject>JuanMartin.EulerProject.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="JuanMartin.Api.Models">
-      <HintPath>..\..\JuanMartin.Api\Models\artifacts\bin\JuanMartin.Api.Models\Debug\dotnet5.4\JuanMartin.Api.Models.dll</HintPath>
+    <Reference Include="JuanMartin.Models, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\JuanMartin.Models\JuanMartin.Models\bin\Debug\JuanMartin.Models.dll</HintPath>
     </Reference>
-    <Reference Include="Juanmartin.Kernel">
-      <HintPath>..\..\JuanMartin.Kernel\JuanMartin.Kernel\bin\Debug\Juanmartin.Kernel.dll</HintPath>
-    </Reference>
-    <Reference Include="JuanMartin.Utilities">
-      <HintPath>..\..\JuanMartin.Utilities\JuanMartin.Utilities\bin\Debug\JuanMartin.Utilities.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -65,6 +60,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Juanmartin.Kernel\Juanmartin.Kernel\Kernel.csproj">
+      <Project>{451cb413-e70b-4f70-93e9-76100453a956}</Project>
+      <Name>Kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\JuanMartin.Utilities\JuanMartin.Utilities\Utilities.csproj">
+      <Project>{7e98c079-4e82-4a3f-8bd1-0bb0efed02bf}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

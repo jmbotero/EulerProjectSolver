@@ -10,7 +10,7 @@ namespace JuanMartin.EulerProject
 
         static void Main(string[] args)
          {
-            var problems = UtilityEulerProjectSolver.problems;
+            JuanMartin.Models.Problem[] problems = UtilityEulerProjectSolver.problems;
 
             var validateProblems = Convert.ToBoolean(args[0]);
             IEnumerable<int> problemIds = null;

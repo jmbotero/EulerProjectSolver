@@ -1,24 +1,30 @@
 ﻿using JuanMartin.Utilities.Euler;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace JuanMartin.EulerProject
 {
     class Program
     {
+        private const string separator = "------------------------------------------------------------------------";
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1031:Do not catch general exception types", Justification = "<Pending>")]
         static void Main(string[] args)
          {
             JuanMartin.Models.Problem[] problems = UtilityEulerProjectSolver.problems;
 
-            var validateProblems = Convert.ToBoolean(args[0]);
+            // creating object of CultureInfo 
+            CultureInfo cultures = new CultureInfo("en-US");
+
+            var validateProblems = Convert.ToBoolean(args[0],cultures);
             IEnumerable<int> problemIds = null;
 
             try
             {
                 if (args.Length > 1)
-                    problemIds = args[1].Split(',').Select(i => Convert.ToInt32(i)).ToArray();
+                    problemIds = args[1].Split(',').Select(i => Convert.ToInt32(i,cultures)).ToArray();
             }
             catch(Exception e)
             {
@@ -49,11 +55,11 @@ namespace JuanMartin.EulerProject
 
             if (validateProblems)
             {
-                Console.WriteLine("------------------------------------------------------------------------");
+                Console.WriteLine(separator);
                 Console.WriteLine("Verifying problem answers...");
                 UtilityEulerProjectSolver.ValidateProblems(problems);
             }
-            Console.WriteLine("------------------------------------------------------------------------");
+            Console.WriteLine(separator);
             Console.WriteLine("Complete");
             Console.ReadKey();
         }
